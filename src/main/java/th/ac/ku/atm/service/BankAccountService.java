@@ -72,19 +72,6 @@ public class BankAccountService {
 
 
 
-    //    @PostConstruct
-//    public void postConstruct(){
-//        this.bankAccountList = new ArrayList<>();
-//    }
-//
-//    public void createBankAccount(BankAccount bankAccount){
-//        bankAccountList.add(bankAccount);
-//    }
-//
-//    public List<BankAccount> getBankAccountList() {
-//        return new ArrayList<>(this.bankAccountList);
-//    }
-
 
 
 
