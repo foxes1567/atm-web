@@ -20,6 +20,7 @@ public class CustomerService {
     }
 
     public void createCustomer(Customer customer){
+        //...hash pin for customer...
         String hashPin = hash(customer.getPin());
         customer.setPin(hashPin);
         repository.save(customer);
